@@ -1,4 +1,3 @@
-import React from 'react'
 import { InstructorCard } from '../components/InstructorCard'
 import { LotusFlower } from '../components/illustrations/Decorations'
 const instructors = [

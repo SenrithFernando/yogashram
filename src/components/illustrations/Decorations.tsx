@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 export const LotusFlower = ({
   className = 'w-12 h-12',

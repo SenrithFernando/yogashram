@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 export const YogaHero = ({ className = '' }: { className?: string }) => (
   <svg

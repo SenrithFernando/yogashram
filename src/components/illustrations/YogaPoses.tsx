@@ -1,4 +1,3 @@
-import React from 'react'
 export const PoseWarrior = ({
   className = '',
   color = '#9CAF88',

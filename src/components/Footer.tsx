@@ -97,19 +97,19 @@ export function Footer() {
             </h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.instagram.com/yogashram.srilanka/"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sage-400 hover:bg-sage-300 hover:text-white transition-all shadow-sm"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://web.facebook.com/yogashram.srilanka"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sage-400 hover:bg-sage-300 hover:text-white transition-all shadow-sm"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@yogashram.srilanka"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sage-400 hover:bg-sage-300 hover:text-white transition-all shadow-sm"
                 aria-label="TikTok"
               >

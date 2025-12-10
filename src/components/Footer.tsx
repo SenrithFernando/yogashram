@@ -130,7 +130,7 @@ export function Footer() {
 
         <div className="border-t border-sage-200 pt-8 text-center text-gray-500 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Yoga Institute. All rights
+            &copy; {new Date().getFullYear()} Yogashram. All rights
             reserved.
           </p>
         </div>

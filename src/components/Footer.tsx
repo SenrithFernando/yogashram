@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Instagram, Facebook, Twitter, Mail, MapPin, Phone } from 'lucide-react'
+import { Instagram, Facebook, Mail, MapPin, Phone } from 'lucide-react'
 import { LotusFlower } from './illustrations/Decorations'
 export function Footer() {
   return (
@@ -18,7 +18,7 @@ export function Footer() {
                 <span className="text-white font-bold">Y</span>
               </div>
               <span className="text-xl font-display font-bold text-sage-600">
-                YogaInstitute
+                Yogashram
               </span>
             </Link>
             <p className="text-gray-600 leading-relaxed">
@@ -77,16 +77,16 @@ export function Footer() {
                 <span>
                   123 Serenity Lane,
                   <br />
-                  Wellness Valley, CA 90210
+                  Horana, Sri Lanka.
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-sage-400 shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>(+94) 71 348 9523</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-sage-400 shrink-0" />
-                <span>hello@yogainstitute.com</span>
+                <span>yogashram.info@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -111,8 +111,18 @@ export function Footer() {
               <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-sage-400 hover:bg-sage-300 hover:text-white transition-all shadow-sm"
+                aria-label="TikTok"
               >
-                <Twitter className="w-5 h-5" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-5 h-5"
+                  aria-hidden="true"
+                >
+                  <title>TikTok</title>
+                  <path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z" />
+                </svg>
               </a>
             </div>
           </div>

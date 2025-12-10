@@ -115,29 +115,32 @@ export function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <ClassCard
-              title="Morning Flow"
-              time="07:00 AM"
-              instructor="Sarah J."
-              level="All Levels"
-              type="flow"
-              index={0}
-            />
-            <ClassCard
-              title="Deep Stretch"
-              time="09:30 AM"
-              instructor="Mike R."
-              level="Beginner"
-              type="stretch"
-              index={1}
-            />
-            <ClassCard
-              title="Mindful Meditation"
-              time="12:00 PM"
-              instructor="Emma W."
-              level="All Levels"
-              type="meditation"
-              index={2}
-            />
+            title="Wednesday Evening Flow"
+            time="04:30 PM"
+            instructor="Dr. Shanika Bandara"
+            level="All Levels"
+            type="flow"
+            index={0}
+          />
+
+          <ClassCard
+            title="Friday Evening Stretch"
+            time="04:30 PM"
+            instructor="Dr. Shanika Bandara"
+            level="All Levels"
+            type="stretch"
+            index={1}
+          />
+
+          <ClassCard
+            title="Sunday Morning Meditation"
+            time="09:00 AM"
+            instructor="Dr. Shanika Bandara"
+            level="All Levels"
+            type="meditation"
+            index={2}
+          />
+
           </div>
         </div>
       </section>
@@ -160,11 +163,11 @@ export function Home() {
             {[
               {
                 text: 'This studio has completely transformed my relationship with my body. The instructors are so supportive.',
-                author: 'Jessica M.',
+                author: 'Gayani Gamage',
               },
               {
                 text: 'A sanctuary in the middle of the city. I leave every class feeling lighter and more grounded.',
-                author: 'David K.',
+                author: 'Senuri Perera',
               },
             ].map((t, idx) => (
               <motion.div

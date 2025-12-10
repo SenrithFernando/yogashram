@@ -2,41 +2,41 @@ import { InstructorCard } from '../components/InstructorCard'
 import { LotusFlower } from '../components/illustrations/Decorations'
 const instructors = [
   {
-    name: 'Sarah Jenkins',
+    name: 'Dr. Shanika Bandara',
     specialty: 'Vinyasa Flow',
     philosophy: 'Movement is the song of the body.',
     color: '#9CAF88',
   },
   {
-    name: 'Mike Ross',
+    name: 'Dr. Chamin Warnakula',
     specialty: 'Hatha & Alignment',
     philosophy: 'Structure creates freedom.',
     color: '#E8DCC4',
   },
-  {
-    name: 'Emma Wilson',
-    specialty: 'Meditation & Breath',
-    philosophy: 'Peace begins with a single breath.',
-    color: '#F4C7C3',
-  },
-  {
-    name: 'David Kim',
-    specialty: 'Power Yoga',
-    philosophy: 'Challenge yourself to find yourself.',
-    color: '#C5B9D4',
-  },
-  {
-    name: 'Lisa Chen',
-    specialty: 'Restorative',
-    philosophy: 'There is strength in softness.',
-    color: '#7d9466',
-  },
-  {
-    name: "James O'Connor",
-    specialty: 'Ashtanga',
-    philosophy: 'Discipline unlocks potential.',
-    color: '#d6c299',
-  },
+  // {
+  //   name: 'Emma Wilson',
+  //   specialty: 'Meditation & Breath',
+  //   philosophy: 'Peace begins with a single breath.',
+  //   color: '#F4C7C3',
+  // },
+  // {
+  //   name: 'David Kim',
+  //   specialty: 'Power Yoga',
+  //   philosophy: 'Challenge yourself to find yourself.',
+  //   color: '#C5B9D4',
+  // },
+  // {
+  //   name: 'Lisa Chen',
+  //   specialty: 'Restorative',
+  //   philosophy: 'There is strength in softness.',
+  //   color: '#7d9466',
+  // },
+  // {
+  //   name: "James O'Connor",
+  //   specialty: 'Ashtanga',
+  //   philosophy: 'Discipline unlocks potential.',
+  //   color: '#d6c299',
+  // },
 ]
 export function Instructors() {
   return (

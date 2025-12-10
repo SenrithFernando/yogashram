@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { Clock, User } from 'lucide-react'
 import { PoseWarrior, PoseLotus, PoseStretch } from './illustrations/YogaPoses'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { Instagram, Facebook, Twitter, Mail, MapPin, Phone } from 'lucide-react'
 import { LotusFlower } from './illustrations/Decorations'

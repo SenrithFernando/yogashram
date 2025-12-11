@@ -5,7 +5,7 @@ const classesData = [
   {
     id: 1,
     title: 'Wednesday Evening Flow',
-    time: '04:30 PM',
+    time: '04:30 -  6:30 PM',
     instructor: 'Dr. Shanika Bandara',
     level: 'All Levels',
     type: 'flow' as const,
@@ -13,7 +13,7 @@ const classesData = [
   {
     id: 2,
     title: 'Friday Evening Stretch',
-    time: '04:30 PM',
+    time: '04:30 - 6:30 PM',
     instructor: 'Dr. Shanika Bandara',
     level: 'All Levels',
     type: 'stretch' as const,
@@ -21,7 +21,7 @@ const classesData = [
   {
     id: 3,
     title: 'Sunday Morning Meditation',
-    time: '09:00 AM',
+    time: '09:00 - 11:00 AM',
     instructor: 'Dr. Shanika Bandara',
     level: 'All Levels',
     type: 'meditation' as const,

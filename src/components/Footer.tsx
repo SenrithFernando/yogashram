@@ -75,7 +75,7 @@ export function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-sage-400 shrink-0" />
                 <span>
-                  123 Serenity Lane,
+                  Dikhenapura, Munagam,
                   <br />
                   Horana, Sri Lanka.
                 </span>

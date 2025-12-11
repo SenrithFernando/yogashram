@@ -39,6 +39,7 @@ export function Navigation() {
       name: 'Contact',
       path: '/contact',
     },
+    
   ]
   return (
     <nav
@@ -82,9 +83,11 @@ export function Navigation() {
                 )}
               </Link>
             ))}
-            <Button size="sm" variant="primary">
-              Join Now
-            </Button>
+            <Link to="/contact">
+              <Button size="sm" variant="primary">
+                Join Now
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Toggle */}
@@ -131,7 +134,9 @@ export function Navigation() {
                   {link.name}
                 </Link>
               ))}
-              <Button className="w-full mt-4">Join Now</Button>
+              <Link to="/contact" className="w-full">
+                <Button className="w-full mt-4">Join Now</Button>
+              </Link>
             </div>
           </motion.div>
         )}

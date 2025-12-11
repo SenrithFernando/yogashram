@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { Button } from '../components/ui/Button'
 import { YogaHero } from '../components/illustrations/YogaHero'
 import { ClassCard } from '../components/ClassCard'
@@ -32,10 +33,11 @@ export function Home() {
                 us to discover the transformative power of yoga.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg">Explore Classes</Button>
+                <Link to="/classes"><Button size="lg">Explore Classes</Button></Link>
+                <Link to="/contact">
                 <Button size="lg" variant="outline">
                   Join Us
-                </Button>
+                </Button></Link>
               </div>
             </motion.div>
 
@@ -110,7 +112,7 @@ export function Home() {
               </h2>
               <p className="text-gray-600">Join us on the mat today</p>
             </div>
-            <Button variant="ghost">View Full Schedule</Button>
+            <Link to="/classes"><Button variant="ghost">View Full Schedule</Button></Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

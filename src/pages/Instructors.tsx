@@ -3,16 +3,17 @@ import { LotusFlower } from '../components/illustrations/Decorations'
 const instructors = [
   {
     name: 'Dr. Shanika Bandara',
-    specialty: 'Vinyasa Flow',
-    philosophy: 'Movement is the song of the body.',
+    specialty: 'Professional Yoga Instructor | Counselor | Aurweda, Hypnosis and Psychotherapy',
+    philosophy: 'Creating a Physically, Mentally and Spiritually Healthy Society.',
     color: '#9CAF88',
   },
-  {
-    name: 'Dr. Chamin Warnakula',
-    specialty: 'Hatha & Alignment',
-    philosophy: 'Structure creates freedom.',
-    color: '#E8DCC4',
-  },
+  //Professional Yoga Instructor, Counselor, Aurweda,Hypnosis and Psychotherapy
+  // {
+  //   name: 'Dr. Chamin Warnakula',
+  //   specialty: 'Hatha & Alignment',
+  //   philosophy: 'Structure creates freedom.',
+  //   color: '#E8DCC4',
+  // },
   // {
   //   name: 'Emma Wilson',
   //   specialty: 'Meditation & Breath',

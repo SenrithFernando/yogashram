@@ -26,6 +26,14 @@ const classesData = [
     level: 'All Levels',
     type: 'meditation' as const,
   },
+  {
+    id: 4,
+    title: 'Monday - Sunday Individual/Group Sessions',
+    time: '5.00 - 7.00 PM',
+    instructor: 'Dr. Shanika Bandara',
+    level: 'All Levels',
+    type: 'meditation' as const,
+  },
   // {
   //   id: 4,
   //   title: 'Lunch Meditation',

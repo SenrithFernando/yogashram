@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
+import { ChatBot } from './components/ChatBot';
 import { Home } from './pages/Home';
 import { Classes } from './pages/Classes';
 import { Instructors } from './pages/Instructors';
@@ -21,6 +22,7 @@ function ScrollToTop() {
 export function App() {
   return <Router>
     <ScrollToTop />
+    <ChatBot />
     <div className="min-h-screen flex flex-col font-sans text-gray-900 bg-white">
       <Navigation />
       <main className="flex-grow">

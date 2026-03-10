@@ -58,8 +58,17 @@ export function Contact() {
 
     try {
       // Get reCAPTCHA v3 token
-      const token = await window.grecaptcha.execute(import.meta.env.VITE_RECAPTCHA_SITE_KEY, {
-        action: 'submit',
+      if (!window.grecaptcha) {
+        throw new Error('reCAPTCHA script not loaded. Please refresh the page or check your connection.')
+      }
+
+      const token = await new Promise<string>((resolve, reject) => {
+        window.grecaptcha.ready(() => {
+          window.grecaptcha
+            .execute(import.meta.env.VITE_RECAPTCHA_SITE_KEY, { action: "submit" })
+            .then(resolve)
+            .catch(reject)
+        })
       })
 
       await emailjs.send(
@@ -85,10 +94,10 @@ export function Contact() {
 
       // Reset success message after 5 seconds
       setTimeout(() => setSubmitStatus('idle'), 5000)
-    } catch (error) {
+    } catch (error: any) {
       console.error('Email send failed:', error)
       setSubmitStatus('error')
-      setErrorMessage('Failed to send message. Please try again later.')
+      setErrorMessage(error.message || 'Failed to send message. Please try again later.')
     } finally {
       setIsLoading(false)
     }

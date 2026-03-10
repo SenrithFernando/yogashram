@@ -1,46 +1,6 @@
 import { ArticleCard } from '../components/ArticleCard'
-const articles = [
-  {
-    title: 'The Benefits of Morning Yoga',
-    summary:
-      'Start your day with intention and energy through these simple morning sequences.',
-    category: 'Wellness',
-    color: 'bg-sage-200',
-  },
-  {
-    title: 'Meditation for Beginners',
-    summary:
-      'A practical guide to quieting the mind and finding stillness in a busy world.',
-    category: 'Mindfulness',
-    color: 'bg-lavender-200',
-  },
-  {
-    title: 'Understanding the Chakras',
-    summary:
-      'Explore the seven energy centers of the body and how they affect your wellbeing.',
-    category: 'Philosophy',
-    color: 'bg-pink-200',
-  },
-  {
-    title: 'Plant-Based Nutrition Tips',
-    summary: 'Fuel your practice with these nourishing, wholesome recipes.',
-    category: 'Nutrition',
-    color: 'bg-sand-300',
-  },
-  {
-    title: 'Yoga for Better Sleep',
-    summary:
-      'Restorative poses to help you unwind and prepare for a restful night.',
-    category: 'Wellness',
-    color: 'bg-sage-300',
-  },
-  {
-    title: 'The Art of Breathwork',
-    summary: 'How pranayama can reduce stress and improve mental clarity.',
-    category: 'Practice',
-    color: 'bg-lavender-300',
-  },
-]
+import { articles } from '../data/articles'
+
 export function Articles() {
   return (
     <div className="min-h-screen bg-white pt-24 pb-12">
@@ -58,11 +18,12 @@ export function Articles() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {articles.map((article, idx) => (
             <ArticleCard
-              key={idx}
+              key={article.id}
               title={article.title}
               summary={article.summary}
               category={article.category}
               color={article.color}
+              slug={article.slug}
               index={idx}
             />
           ))}

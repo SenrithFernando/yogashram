@@ -7,6 +7,7 @@ interface ArticleCardProps {
   category: string
   color: string
   index: number
+  slug: string
 }
 export function ArticleCard({
   title,
@@ -14,6 +15,7 @@ export function ArticleCard({
   category,
   color,
   index,
+  slug,
 }: ArticleCardProps) {
   return (
     <motion.article
@@ -45,12 +47,12 @@ export function ArticleCard({
           {category}
         </span>
         <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-sage-600 transition-colors">
-          <Link to="#">{title}</Link>
+          <Link to={`/articles/${slug}`}>{title}</Link>
         </h3>
         <p className="text-gray-600 mb-6 flex-1">{summary}</p>
 
         <Link
-          to="#"
+          to={`/articles/${slug}`}
           className="inline-flex items-center text-sage-600 font-medium hover:text-sage-800 transition-colors"
         >
           Read Article{' '}

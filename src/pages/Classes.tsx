@@ -4,11 +4,11 @@ import { ClassCard } from '../components/ClassCard'
 const classesData = [
   {
     id: 1,
-    title: 'Wednesday Evening Flow',
-    time: '04:30 -  6:30 PM',
+    title: 'Monday - Sunday Individual / Group Sessions',
+    time: '5.00 - 7.00 PM',
     instructor: 'Dr. Shanika Bandara',
     level: 'All Levels',
-    type: 'flow' as const,
+    type: 'meditation' as const,
   },
   {
     id: 2,
@@ -28,11 +28,11 @@ const classesData = [
   },
   {
     id: 4,
-    title: 'Monday - Sunday Individual/Group Sessions',
-    time: '5.00 - 7.00 PM',
+    title: 'Wednesday Evening Flow',
+    time: '04:30 -  6:30 PM',
     instructor: 'Dr. Shanika Bandara',
     level: 'All Levels',
-    type: 'meditation' as const,
+    type: 'flow' as const,
   },
   // {
   //   id: 4,

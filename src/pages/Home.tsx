@@ -117,8 +117,8 @@ export function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <ClassCard
-            title="Wednesday Evening Flow"
-            time="04:30 PM"
+            title="Monday - Sunday Individual / Group Sessions"
+            time="5.00 - 7.00 PM"
             instructor="Dr. Shanika Bandara"
             level="All Levels"
             type="flow"
